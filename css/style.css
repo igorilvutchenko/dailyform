@@ -46,6 +46,7 @@ body {
 	color: #ea355a;
 }
 
+
 .signin {
 	width: 100%;
 }
@@ -89,6 +90,13 @@ body {
 	color: #fff;
 	font-weight: 600;
 	margin-bottom: 25px;
+	cursor: pointer;
+}
+
+.signin__button:hover {
+	background-color: #fff;
+	color: #ea355a;
+	box-shadow: none;
 }
 
 .button__agree {
@@ -100,4 +108,7 @@ body {
 .button__agree a{
 	text-decoration: none;
 	color: #ea355a;
+}
+a:hover {
+	color: #000;
 }
